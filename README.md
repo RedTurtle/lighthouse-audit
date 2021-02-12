@@ -1,6 +1,6 @@
 # lighthouse-audit
 
-WIP
+> WIP
 
 https://github.com/GoogleChrome/lighthouse-ci
 
