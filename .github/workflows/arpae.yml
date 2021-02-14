@@ -1,4 +1,4 @@
-name: Lighthouse CI RER
+name: Lighthouse CI Arpae
 on:
   push:
   schedule:
