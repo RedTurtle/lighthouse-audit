@@ -2,7 +2,7 @@ name: Lighthouse CI RedTurtle
 on:
   push:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '40 13 * * *'
 jobs:
   lighthouse:
     runs-on: ubuntu-latest
