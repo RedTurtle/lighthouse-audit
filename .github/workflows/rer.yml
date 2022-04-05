@@ -12,7 +12,7 @@ jobs:
         uses: treosh/lighthouse-ci-action@v7
         with:
           urls: |
-            https://regione.emilia-romagna.it
+            https://www.regione.emilia-romagna.it
           budgetPath: .github/lighthouse/bad.json # test performance budgets
           uploadArtifacts: true # save results as an action artifacts
           temporaryPublicStorage: true # upload lighthouse report to the temporary storage
