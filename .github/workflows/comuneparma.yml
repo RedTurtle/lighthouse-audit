@@ -1,0 +1,19 @@
+name: Lighthouse CI Comune Parma
+on:
+  push:
+  schedule:
+    - cron: '0 7 * * *'
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Audit URLs using Lighthouse
+        uses: treosh/lighthouse-ci-action@v7
+        with:
+          urls: |
+            https://www.comune.parma.it/it
+            https://www.comune.parma.it/it/novita/notizie
+          budgetPath: .github/lighthouse/bad.json # test performance budgets
+          uploadArtifacts: true # save results as an action artifacts
+          temporaryPublicStorage: true # upload lighthouse report to the temporary storage
