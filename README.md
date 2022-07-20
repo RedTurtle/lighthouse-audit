@@ -10,3 +10,11 @@
 https://github.com/GoogleChrome/lighthouse-ci
 
 https://github.com/GoogleChrome/lighthouse/blob/master/docs/performance-budgets.md
+
+---
+
+Info/resources:
+
+- https://googlechrome.github.io/lighthouse/scorecalc/
+- https://web.dev/performance-scoring/
+- 
