@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Audit URLs using Lighthouse
-        uses: treosh/lighthouse-ci-action@v7
+        uses: treosh/lighthouse-ci-action@v9
         with:
           urls: |
             https://www.regione.emilia-romagna.it

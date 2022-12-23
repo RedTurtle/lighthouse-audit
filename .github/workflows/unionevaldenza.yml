@@ -1,4 +1,4 @@
-name: Lighthouse CI Comune Modena
+name: Lighthouse CI Unione Valdenza
 on:
   push:
   schedule:
@@ -12,8 +12,8 @@ jobs:
         uses: treosh/lighthouse-ci-action@v9
         with:
           urls: |
-            https://www.comune.modena.it/
-            https://www.comune.modena.it/novita
+            https://www.unionevaldenza.it/
+            https://www.comune.bibbiano.re.it/
           budgetPath: .github/lighthouse/bad.json # test performance budgets
           uploadArtifacts: true # save results as an action artifacts
           temporaryPublicStorage: true # upload lighthouse report to the temporary storage
